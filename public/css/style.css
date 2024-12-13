@@ -1,0 +1,274 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.main-logo {
+    width: 200px;
+    height: 40px;
+    margin-top: 0px;
+    position: absolute;
+    z-index: 2;
+}
+
+@media(max-width:520px) {
+    .main-logo {
+        width: 150px;
+        height: 30px;
+        margin-top: 5px;
+    }
+}
+
+.indexHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+@media(max-width:330px) {
+    .indexHeader {
+        gap: 5px;
+        margin-right: 5px;
+    }
+}
+
+.indexHeader>.dropdown .dropdown-toggle {
+    background-color: transparent;
+    border: 1px solid white;
+    width: 120px;
+    height: 42px;
+    text-align: center;
+    color: white;
+}
+
+.indexHeader>.dropdown .languageIcon {
+    background-color: transparent;
+    border: 1px solid white;
+    width: 120px;
+    height: 42px;
+    text-align: center;
+    display: none;
+    color: white;
+}
+
+@media(max-width:520px) {
+
+    .indexHeader>.dropdown .dropdown-toggle {
+        display: none;
+    }
+
+    .indexHeader>.dropdown .languageIcon {
+        display: block;
+        width: 70px;
+        height: 32px;
+        /* margin: 3px; */
+
+    }
+}
+
+.dropdown-toggle {
+    text-align: center;
+    color: red;
+}
+
+.indexHeader>button {
+    width: 70px;
+    height: 32px;
+    text-align: center;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    z-index: 3;
+    color: white;
+}
+
+
+.index>.bg-main-img {
+    width: 100%;
+    height: 750px;
+    position: absolute;
+    background-image: url(/public/images/main-bg-image.jpg);
+    background-size: cover;
+    filter: brightness(0.3);
+    /* opacity: 0.9; */
+    top: 0px;
+}
+
+
+
+
+.index .bg-main-text {
+    font-family: sans-serif;
+    z-index: 13;
+    color: white;
+    position: relative;
+    top: 170px;
+    text-align: center;
+    /* font-size: 60px; */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media(max-width:585px) {
+    .index .bg-main-text {
+        position: relative;
+        top: 120px;
+    }
+}
+
+.bg-main-text p:nth-child(1) {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.bg-main-text p:nth-child(2) {
+    font-size: 20px;
+}
+
+.bg-main-text p:nth-child(3) {
+    font-size: 20px;
+}
+
+.bg-main-text input {
+    width: 350px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.bg-main-text button {
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+
+
+.index .movie-part {
+    width: 100%;
+    height: 330vh;
+    background-color: black;
+    position: absolute;
+    color: white;
+    top: 100%;
+}
+
+@media(max-width:430px) {
+    .index .movie-part {
+        top: 750px;
+    }
+}
+
+.index .movie-part h4 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.index .movie-part .country button {
+    position: relative;
+    left: 50px;
+    top: 100px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.index .movie-part .movies button {
+    position: relative;
+    left: 60px;
+    top: 100px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.index .movie-part .movie-img {
+    position: relative;
+    top: 150px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.index .movie-part .movie-img img {
+    border-radius: 10px
+}
+
+
+.index .movie-part .reason-div {
+    position: relative;
+    top: 150px;
+    left: -22px;
+    color: white;
+}
+
+.index .movie-part .reason-div .reason-4divs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
+
+.index .movie-part .reason-div .reason-4divs div svg {
+    position: relative;
+    top: 10px;
+    float: right;
+    right: 10px;
+}
+
+@media (max-width:437px) {
+    .index .movie-part .reason-div .reason-4divs div svg {
+        top: -20px;
+    }
+}
+
+.index .movie-part .reason-div .reason-4divs div {
+    width: 520px;
+    height: 200px;
+    background-color: red;
+    border-radius: 15px;
+    font-family: sans-serif;
+}
+
+@media (max-width:300px) {
+    .index .movie-part .reason-div .reason-4divs div {
+        height: 230px;
+    }
+
+}
+
+.index .movie-part .reason-div .reason-4divs div p {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.index .movie-part .reason-div .reason-4divs div h3 {
+    margin-left: 20px;
+    margin-top: 10px;
+}
