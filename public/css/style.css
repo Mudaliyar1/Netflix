@@ -237,6 +237,8 @@
     
 }
 .index .movie-part .movie-img img:hover {
+    transition: all 3s ease;
+    border-radius: 50%;
     width: 200px;
     height: 305px;
 }
