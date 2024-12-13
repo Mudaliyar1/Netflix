@@ -220,10 +220,15 @@
     margin: 10px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    /* flex-wrap: wrap; */
+    overflow-x: scroll;
+    /* justify-content: center; */
     align-items: center;
     gap: 20px;
+}
+
+.index .movie-part .movie-img::-webkit-scrollbar{
+    width: 0px;
 }
 
 .index .movie-part .movie-img img {
