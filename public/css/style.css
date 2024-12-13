@@ -92,7 +92,7 @@
     width: 100%;
     height: 750px;
     position: absolute;
-    background-image: url(/public/images/main-bg-image.jpg);
+    /* background-image: url(/public/images/main-bg-image.jpg); */
     background-size: cover;
     filter: brightness(0.3);
     /* opacity: 0.9; */
