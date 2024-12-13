@@ -181,6 +181,12 @@
     left: 50px;
 }
 
+.index .movie-part .reason-div h4 {
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
 .index .movie-part .country button {
     position: relative;
     left: 50px;
