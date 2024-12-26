@@ -40,6 +40,7 @@
         margin-right: 5px;
     }
 }
+
 @media(max-width:580px) {
     .indexHeader {
         right: 5px;
@@ -228,14 +229,14 @@
 
 }
 
-.index .movie-part .movie-img::-webkit-scrollbar{
+.index .movie-part .movie-img::-webkit-scrollbar {
     width: 0px;
 }
 
 .index .movie-part .movie-img img {
     border-radius: 10px
-    
 }
+
 .index .movie-part .movie-img img:hover {
     width: 200px;
     height: 305px;
@@ -279,7 +280,7 @@
     width: 520px;
     height: 200px;
     /* background-color: red; */
-    background-image: linear-gradient( 110.1deg,  rgba(30,2,83,1) 60.2%, rgba(198,55,160,1) 200%);
+    background-image: linear-gradient(110.1deg, rgba(30, 2, 83, 1) 60.2%, rgba(198, 55, 160, 1) 200%);
     border-radius: 15px;
     font-family: sans-serif;
 }
@@ -300,4 +301,44 @@
 .index .movie-part .reason-div .reason-4divs div h3 {
     margin-left: 20px;
     margin-top: 10px;
+}
+
+
+
+.index .movie-part .faq-div {
+    position: relative;
+    top: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.index .movie-part .faq-div .faq {
+    width: 85vw;
+    height: 80px;
+    background-color: rgb(45, 45, 45);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.index .movie-part .faq-div .faqToggleDiv{
+    width: 85vw;
+    height: auto;
+    background-color: rgb(45, 45, 45);
+    position: relative;
+    top:-8px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: none;
+}
+.index .movie-part .faq-div .faqToggleDiv h5{
+    /* font-size: 30px; */
+    text-align: justify;
+    padding: 10px 10px;
+    margin: 10px 10px;
 }
