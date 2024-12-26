@@ -258,7 +258,7 @@
     gap: 15px;
     flex-wrap: wrap;
     position: relative;
-    top: 100px;
+    top: 36px;
     left: 20px;
     margin: 20px;
 }
@@ -307,7 +307,7 @@
 
 .index .movie-part .faq-div {
     position: relative;
-    top: 320px;
+    top: 227px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -383,7 +383,7 @@ footer{
     background-color: black;
     color: white;
     position: relative;
-    top: 320px;
+    top: 227px;
     color: rgba(255,255,255,0.7);
 }
 
