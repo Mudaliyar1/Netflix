@@ -1,6 +1,13 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src:  url('font.woff2') format('woff2');
+  }
+
 * {
     padding: 0;
     margin: 0;
+    font-family: 'MyWebFont', sans-serif !important;
+
 }
 
 
